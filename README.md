@@ -5,6 +5,7 @@
 * python 3.5.x (I did not do it in anaconda.)
 
 ## Download
+
 ### weight and tfrecord file
 This is the tfrecord file needed for source code testing only. If you only want to test it, you can get the file below. You can unpack it into a folder like run.py.
 * Windows
