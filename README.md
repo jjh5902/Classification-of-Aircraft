@@ -2,7 +2,7 @@
 
 ## requirement
 * tensorflow-gpu(1.2.x)
-* python 3.5.x
+* python 3.5.x (I did not do it in anaconda.)
 
 ## Download
 ### weight and tfrecord file
