@@ -18,11 +18,11 @@ curl -L -b /tmp/cookies "https://drive.google.com$(cat /tmp/intermezzo.html | gr
 ```
 ### original image file
 If you are interested in the original image file, you can get the following file.
-*Windows
+* Windows
 ```
 https://drive.google.com/open?id=1bRH9O8filwej0Rz6UG6BwmaHXuCm1UK7
 ```
-*Linux
+* Linux
 ```
 curl -c /tmp/cookies "https://drive.google.com/uc?export=download&id=1bRH9O8filwej0Rz6UG6BwmaHXuCm1UK7" > /tmp/intermezzo.html
 curl -L -b /tmp/cookies "https://drive.google.com$(cat /tmp/intermezzo.html | grep -Po 'uc-download-link" [^>]* href="\K[^"]*' | sed 's/\&amp;/\&/g')" > data.zip
