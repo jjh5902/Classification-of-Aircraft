@@ -4,9 +4,9 @@
 * tensorflow-gpu(1.2.x)
 * python 3.5.x
 
-## Dowload
+## Download
 ### weight and tfrecord file
-This is the tfrecord file needed for source code testing only. If you only want to test it, you can get the file below.
+This is the tfrecord file needed for source code testing only. If you only want to test it, you can get the file below. You can unpack it into a folder like run.py.
 * Windows
 ```
 https://drive.google.com/file/d/1kH2nsj2gzinlOKyEOMEBYru2l1_ySo0B/view?usp=sharing
