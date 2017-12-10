@@ -7,11 +7,11 @@
 ## Dowload
 ### weight and tfrecord file
 This is the tfrecord file needed for source code testing only. If you only want to test it, you can get the file below.
-*Windows
+* Windows
 ```
 https://drive.google.com/file/d/1kH2nsj2gzinlOKyEOMEBYru2l1_ySo0B/view?usp=sharing
 ```
-*Linux
+* Linux
 ```
 curl -c /tmp/cookies "https://drive.google.com/uc?export=download&id=1kH2nsj2gzinlOKyEOMEBYru2l1_ySo0B" > /tmp/intermezzo.html
 curl -L -b /tmp/cookies "https://drive.google.com$(cat /tmp/intermezzo.html | grep -Po 'uc-download-link" [^>]* href="\K[^"]*' | sed 's/\&amp;/\&/g')" > dataset.tar.gz
